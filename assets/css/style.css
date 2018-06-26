@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'menastandard';
+    src: url('menastandard-regular-webfont.woff');
+  }
+
 body {
   margin: 0;
   display: flex;
@@ -5,22 +10,55 @@ body {
 }
 
 main {
-  background-color: yellow;
-  height: 100vh;
-  width: 82.5vw;
+  background-color: white;
+  min-height: 90vh;
+  width: 72.5vw;
+  margin: 5vh 5vw;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #sidebar {
-  background-color: purple;
+  background-color: black;
   height: 100vh;
   width: 17.5vw;
+}
+
+nav {
+  margin: auto 10px auto 10px;
+  font-family: 'menastandard';
 }
 
 ul {
   display: flex;
   flex-direction: column;
+  padding: 0px;
 }
 
 a {
+  color: white;
   text-decoration: none;
+  font-size: 40px;
+}
+
+a:hover {
+  color: #ff6666;
+}
+
+
+h1 {
+  display: flex;
+}
+
+article section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+img {
+  width: 70%;
+  height: auto;
 }
