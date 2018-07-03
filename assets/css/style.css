@@ -12,35 +12,29 @@ body {
 main {
   background-color: white;
   min-height: 90vh;
-  width: 72.5vw;
+  width: 75vw;
   margin: 5vh 5vw;
-  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 #sidebar {
-  background-color: black;
+  background-color: #cccccc;
   height: 100vh;
-  width: 17.5vw;
-  align-content: center;
-  display: flex;
-  flex-direction: column;
+  width: 15vw;
+  color: white;
 }
 
- #logo {
-   max-height:200px;
-   width:auto;
-   height:100%;
-   align-self:center;
-   margin-top: 5vh;
-   margin-bottom: 2vh;
- }
+#logo {
+  width: 65%;
+  height: auto;
+}
 
 nav {
-  margin: 0px 10px auto 10px;
+  margin: auto 10px auto 10px;
   font-family: 'menastandard';
+    font-size: 40px;
 }
 
 ul {
@@ -52,25 +46,76 @@ ul {
 a {
   color: white;
   text-decoration: none;
-  font-size: 40px;
+
 }
 
 a:hover {
   color: #ff6666;
 }
 
+.dropbtn {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  border: none;
+  background-color: #cccccc;
+  font-family: 'menastandard';
+  padding: 0px;
+}
+
+.dropbtn:hover {
+  color: #ff6666;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 30px;
+
+  }
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+#year {
+
+}
 
 h1 {
   display: flex;
+  margin-top: 0px;
 }
 
-article section {
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  font-family: 'Roboto', sans-serif;
+}
+
+section{
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-{
-  width: 70%;
-  height: auto;
+img {
+  max-width: 70%;
+  max-height: auto;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5vh;
+}
+
+.about-pics {
+  margin-left: 5vw;
+}
+
+#social-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: 'menastandard';
+  color: #ff6666;
 }

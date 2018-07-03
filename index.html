@@ -11,19 +11,29 @@
   </head>
   <body>
       <div id="sidebar">
-        <img src="assets\pics\logo-1.png" id="logo">
+        <img src="assets\pics\placeholder-logo.png" id="logo">
         <nav>
           <ul>
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT ME</a>
-            <a href="portfolio.html">PORTFOLIO</a>
+            <div class="dropdown">
+              <button class="dropbtn" onclick="myFunction()">PORTFOLIO
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="#">Animation</a>
+                <a href="#">Editing</a>
+                <a href="#">Illustration</a>
+                <a href="#">Webdesign</a>
+              </div>
+            </div>
             <a href="contact.html">CONTACT</a>
           </ul>
         </nav>
-        <p>2018</p>
+        <p id="year">2018</p>
       </div>
       <main>
       </main>
 
   </body>
+  <script src="assets/javascript/script.js"></script>
 </html>
