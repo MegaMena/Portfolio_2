@@ -58,6 +58,10 @@ a:hover {
   color: #ff6666;
 }
 
+a:active {
+  color: #ff6666;
+}
+
 .dropbtn {
   color: white;
   text-decoration: none;
