@@ -160,6 +160,8 @@ img {
 
 .link {
   color: #ff6666;
+  font-family: 'menastandard';
+  font-size: 30px;
 }
 
 .link:hover {
