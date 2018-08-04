@@ -108,10 +108,13 @@ h3 {
 article {
   display: flex;
   flex-direction: column;
-  flex: 2;
+  flex: 3;
   font-family: 'Roboto', sans-serif;
 }
 
+.side {
+
+}
 .column{
   flex-direction: column;
 }
@@ -122,7 +125,6 @@ article {
 
 section {
   display: flex;
-
 }
 
 img {
@@ -154,4 +156,21 @@ img {
   flex-direction: row;
   font-family: 'menastandard';
   color: #ff6666;
+}
+
+.link {
+  color: #ff6666;
+}
+
+.link:hover {
+  color: #ff3333;
+  }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.front {
+  margin-top: 18vh;
 }
